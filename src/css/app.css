@@ -1,0 +1,25 @@
+.main_body{
+  
+    height: 850px;
+}
+
+
+
+.app_body{
+    display: flex;
+    height: 100% ;
+  }
+
+
+  @media only screen and (max-width:768px)
+  {
+      .main_body{
+          height: 100vh ;
+      }
+      .app_body{
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+  }

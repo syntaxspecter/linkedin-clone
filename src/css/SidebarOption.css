@@ -1,0 +1,33 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    margin-top: 2%;
+    padding: 2%;
+    color: rgb(73, 67, 67);
+  
+}
+.sidebarOption:hover{
+  background-color: rgb(190, 183, 183);
+  color: black;
+}
+.sidebarOption__element{
+    margin-left: 2%;
+    font-size: 15px;
+}
+
+
+.sidebarOption__icon{
+    color:gray;
+    font-size: medium !important;
+
+}
+
+
+/* setting resopnsiveness*/
+
+@media only screen and (min-width:768px)
+{
+
+    
+}

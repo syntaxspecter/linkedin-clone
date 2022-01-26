@@ -1,0 +1,46 @@
+.headerOption{
+    color: rgb(78, 78, 78);
+    margin-left: 18px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.headerOption:active :focus{
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+
+.headerOption:hover{
+    color: black;
+}
+
+.headerOption svg{
+    min-width: 50px;
+    font-size: 25px;
+}
+
+.headerOption__icon{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+
+/* setting resopnsiveness*/
+
+@media only screen and (max-width:768px)
+{
+  .headerOption h3{
+      font-size: 0;
+  }
+
+}
